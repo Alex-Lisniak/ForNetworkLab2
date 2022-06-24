@@ -1,0 +1,3 @@
+net\devstudy\jmemcached\client\Client.class
+net\devstudy\jmemcached\client\ClientConfig.class
+net\devstudy\jmemcached\client\impl\DefaultClient.class
