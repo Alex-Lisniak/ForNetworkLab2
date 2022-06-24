@@ -10,10 +10,8 @@ import java.util.Date;
 import java.util.Map;
 import java.util.concurrent.*;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
+
 class DefaultStorage implements Storage {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultStorage.class);
 

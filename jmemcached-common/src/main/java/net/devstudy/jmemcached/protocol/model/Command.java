@@ -2,10 +2,7 @@ package net.devstudy.jmemcached.protocol.model;
 
 import net.devstudy.jmemcached.exception.JMemcachedException;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public enum Command {
     CLEAR(0),
 

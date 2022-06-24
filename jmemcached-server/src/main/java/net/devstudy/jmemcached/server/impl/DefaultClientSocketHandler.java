@@ -17,7 +17,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.net.SocketException;
 
-
+//default handler with logger
 class DefaultClientSocketHandler implements ClientSocketHandler {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultClientSocketHandler.class);
     private final Socket socket;

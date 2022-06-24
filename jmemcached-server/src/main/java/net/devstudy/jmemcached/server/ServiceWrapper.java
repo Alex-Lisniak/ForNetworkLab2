@@ -7,10 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class ServiceWrapper {
 
     private static final Server server = createServer();

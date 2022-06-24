@@ -7,10 +7,7 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.*;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class DefaultResponseConverter extends AbstractPackageConverter implements ResponseConverter {
     @Override
     public Response readResponse(InputStream inputStream) throws IOException {

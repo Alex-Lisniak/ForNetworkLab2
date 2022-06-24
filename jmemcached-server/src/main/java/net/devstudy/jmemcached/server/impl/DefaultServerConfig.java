@@ -16,10 +16,8 @@ import java.net.Socket;
 import java.util.Properties;
 import java.util.concurrent.ThreadFactory;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
+//class for second level server configs
 class DefaultServerConfig implements ServerConfig {
     private final Properties applicationProperties = new Properties();
     private final RequestConverter requestConverter;

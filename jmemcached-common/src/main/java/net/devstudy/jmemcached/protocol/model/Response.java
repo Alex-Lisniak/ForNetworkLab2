@@ -1,9 +1,6 @@
 package net.devstudy.jmemcached.protocol.model;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class Response extends AbstractPackage {
     private final Status status;
 

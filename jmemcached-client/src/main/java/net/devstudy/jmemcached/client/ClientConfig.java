@@ -4,10 +4,7 @@ import net.devstudy.jmemcached.protocol.ObjectSerializer;
 import net.devstudy.jmemcached.protocol.RequestConverter;
 import net.devstudy.jmemcached.protocol.ResponseConverter;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public interface ClientConfig {
 
     String getHost();

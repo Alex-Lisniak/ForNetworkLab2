@@ -6,7 +6,7 @@ import net.devstudy.jmemcached.client.impl.JMemcachedClientFactory;
 import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 
-
+//using this class you could test all project working
 public class ExternalProject {
 
     public static void main(String[] args) throws Exception {

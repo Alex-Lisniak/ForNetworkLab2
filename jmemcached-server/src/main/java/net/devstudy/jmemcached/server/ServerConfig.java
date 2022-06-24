@@ -6,10 +6,7 @@ import net.devstudy.jmemcached.protocol.ResponseConverter;
 import java.net.Socket;
 import java.util.concurrent.ThreadFactory;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public interface ServerConfig extends AutoCloseable {
 
     RequestConverter getRequestConverter();

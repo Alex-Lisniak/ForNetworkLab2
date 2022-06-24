@@ -4,10 +4,7 @@ import net.devstudy.jmemcached.server.Server;
 
 import java.util.Properties;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+//factoryMethod pattern implementation
 public class JMemcachedServerFactory {
 
     public static Server buildNewServer(Properties overrideApplicationProperties) {

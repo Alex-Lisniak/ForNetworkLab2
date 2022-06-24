@@ -11,7 +11,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.*;
 
-
+//it is default server class that contains almost all configs to work with
+//Notice that all dependencies are initialising by itself and just one is importing
+//it could be critical thing when you try to report and catch all bags
 class DefaultServer implements Server {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultServer.class);
     private final ServerConfig serverConfig;

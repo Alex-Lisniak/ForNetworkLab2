@@ -4,10 +4,7 @@ import net.devstudy.jmemcached.client.Client;
 
 import java.io.IOException;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class JMemcachedClientFactory {
 
     public static Client buildNewClient(String host, int port) throws IOException {

@@ -2,10 +2,7 @@ package net.devstudy.jmemcached.protocol.model;
 
 import net.devstudy.jmemcached.exception.JMemcachedException;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+//this enum represents all statuses of our value(in map)
 public enum Status {
     ADDED(0),
 

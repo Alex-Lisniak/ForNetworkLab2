@@ -9,10 +9,8 @@ import net.devstudy.jmemcached.server.CommandHandler;
 import net.devstudy.jmemcached.server.ServerConfig;
 import net.devstudy.jmemcached.server.Storage;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
+
 class DefaultCommandHandler implements CommandHandler {
 
     private final Storage storage;
@@ -21,6 +19,7 @@ class DefaultCommandHandler implements CommandHandler {
         this.storage = serverConfig.getStorage();
     }
 
+    //parsing byte-code command and returning new response
     @Override
     public Response handle(Request request) {
         Status status;

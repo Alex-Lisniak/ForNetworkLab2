@@ -9,10 +9,7 @@ import org.apache.commons.io.IOUtils;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class DefaultRequestConverter extends AbstractPackageConverter implements RequestConverter {
     @Override
     public Request readRequest(InputStream inputStream) throws IOException {

@@ -8,10 +8,7 @@ import net.devstudy.jmemcached.protocol.impl.DefaultObjectSerializer;
 import net.devstudy.jmemcached.protocol.impl.DefaultRequestConverter;
 import net.devstudy.jmemcached.protocol.impl.DefaultResponseConverter;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 class DefaultClientConfig implements ClientConfig {
     private final String host;
     private final int port;

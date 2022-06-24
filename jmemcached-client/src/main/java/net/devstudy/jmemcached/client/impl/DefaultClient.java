@@ -16,10 +16,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 class DefaultClient implements Client {
     private final RequestConverter requestConverter;
     private final ResponseConverter responseConverter;

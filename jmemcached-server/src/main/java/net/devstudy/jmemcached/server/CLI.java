@@ -10,7 +10,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-
+//using this class you will build server, using pre-initialised count of threads, import dependencies an
+//start logging all actions
 public class CLI {
     private static final Logger LOGGER = LoggerFactory.getLogger(CLI.class);
     private static final List<String> QUIT_CMDS = Collections.unmodifiableList(Arrays.asList(new String[]{"q", "quit", "exit"}));

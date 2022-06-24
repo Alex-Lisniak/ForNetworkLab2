@@ -3,10 +3,7 @@ package net.devstudy.jmemcached.protocol.impl;
 import net.devstudy.jmemcached.exception.JMemcachedException;
 import net.devstudy.jmemcached.protocol.model.Version;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 abstract class AbstractPackageConverter {
 
     protected void checkProtocolVersion(byte versionByte) {

@@ -2,10 +2,7 @@ package net.devstudy.jmemcached.protocol.model;
 
 import net.devstudy.jmemcached.exception.JMemcachedException;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+//this class required to allow connection using right version number
 public enum Version {
 
     VERSION_0_0(0, 0),

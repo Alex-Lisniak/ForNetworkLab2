@@ -1,9 +1,6 @@
 package net.devstudy.jmemcached.exception;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+//produce  that type of exception when it is wrong configuration
 public class JMemcachedConfigException extends JMemcachedException {
     public JMemcachedConfigException(String message) {
         super(message);

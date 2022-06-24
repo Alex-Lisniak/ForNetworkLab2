@@ -5,10 +5,7 @@ import net.devstudy.jmemcached.protocol.ObjectSerializer;
 
 import java.io.*;
 
-/**
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class DefaultObjectSerializer implements ObjectSerializer {
     @Override
     public byte[] toByteArray(Object object) {
